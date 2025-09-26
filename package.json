@@ -28,11 +28,13 @@
   "author": "Braz Suthar <me@brazsuthar.in> (https://github.com/Braz-Suthar)",
   "license": "MIT",
   "homepage": "https://github.com/Braz-Suthar/expo-webrtc-local-recorder.git#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react-native-webrtc": "^124.0.6"
+  },
   "devDependencies": {
     "@types/react": "~19.1.0",
-    "expo-module-scripts": "^5.0.7",
     "expo": "^54.0.10",
+    "expo-module-scripts": "^5.0.7",
     "react-native": "0.81.4"
   },
   "peerDependencies": {

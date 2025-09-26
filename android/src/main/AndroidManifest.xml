@@ -1,2 +1,20 @@
-<manifest>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.brazsuthar.webrtclocalrecorder">
+
+    <!-- Permission to record audio -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Optional: For writing to external storage (not needed if using internal filesDir) -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- No activity needed for native module only -->
+    </application>
+
 </manifest>
