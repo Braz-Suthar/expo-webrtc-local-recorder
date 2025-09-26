@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-webrtc-local-recorder": ["../src/index"],
+      "expo-webrtc-local-recorder/*": ["../src/*"]
+    }
+  }
+}

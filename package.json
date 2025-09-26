@@ -1,0 +1,43 @@
+{
+  "name": "expo-webrtc-local-recorder",
+  "version": "0.1.0",
+  "description": "Expo module to record WebRTC audio streams locally on the device",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-webrtc-local-recorder",
+    "ExpoWebrtcLocalRecorder"
+  ],
+  "repository": "https://github.com/Braz-Suthar/expo-webrtc-local-recorder.git",
+  "bugs": {
+    "url": "https://github.com/Braz-Suthar/expo-webrtc-local-recorder.git/issues"
+  },
+  "author": "Braz Suthar <me@brazsuthar.in> (https://github.com/Braz-Suthar)",
+  "license": "MIT",
+  "homepage": "https://github.com/Braz-Suthar/expo-webrtc-local-recorder.git#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "expo-module-scripts": "^5.0.7",
+    "expo": "^54.0.10",
+    "react-native": "0.81.4"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

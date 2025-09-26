@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpoWebrtcLocalRecorderModule"]
+  },
+  "android": {
+    "modules": ["in.brazsuthar.webrtclocalrecorder.ExpoWebrtcLocalRecorderModule"]
+  }
+}
